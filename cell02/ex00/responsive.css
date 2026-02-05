@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3vw;
+}
+
+/* สีของแต่ละกล่อง */
+.box1 {
+    background-color: lightblue;
+}
+
+.box2 {
+    background-color: lightcoral;
+}
