@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background Color</title>
+    <link rel="stylesheet" href="backgroound.css">
+</head>
+<body>
+
+    <button onclick="changeBackground(this)">
+        Click me
+    </button>
+
+    <script>
+        let scale = 1;
+
+        function changeBackground(btn) {
+            // เปลี่ยนสีพื้นหลัง
+            let r = Math.floor(Math.random() * 256);
+            let g = Math.floor(Math.random() * 256);
+            let b = Math.floor(Math.random() * 256);
+            document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+
+            // ขยายปุ่มทีละนิด
+            scale += 0.1;
+            btn.style.transform = `scale(${scale})`;
+        }
+    </script>
+
+</body>
+</html>
