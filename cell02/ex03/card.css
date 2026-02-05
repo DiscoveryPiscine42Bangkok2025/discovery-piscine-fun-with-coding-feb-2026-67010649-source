@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 320px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+/* Title */
+.card h1 {
+    margin: 20px 0;
+}
+
+/* Invisible table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px 0;
+}
+
+/* Profile image */
+.profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Login */
+.login {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Description */
+.desc {
+    color: gray;
+    font-size: 14px;
+}
+
+/* Location */
+.location {
+    font-size: 14px;
+}
+
+/* Social icons */
+.socials img {
+    width: 20px;
+    margin: 0 6px;
+}
+
+/* Contact button */
+button {
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
