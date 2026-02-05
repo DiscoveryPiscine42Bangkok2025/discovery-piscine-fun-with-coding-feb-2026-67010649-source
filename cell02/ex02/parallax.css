@@ -1,0 +1,51 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Parallax section */
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* รูปที่ 1 */
+.parallax-1 {
+    background-image: url("https://images.pexels.com/photos/1490908/pexels-photo-1490908.jpeg?cs=srgb&dl=pexels-svetozar-milashevich-99573-1490908.jpg&fm=jpg");
+}
+
+/* รูปที่ 2 */
+.parallax-2 {
+    background-image: url("https://img.soccersuck.com/images/2021/07/10/Screenshot_2021-07-10-17-10-09-86.jpg");
+}
+
+/* ข้อความกลางรูป */
+.text {
+    color: white;
+    font-size: 48px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+}
+
+/* กล่องสีดำ */
+.content {
+    height: 300px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+}
