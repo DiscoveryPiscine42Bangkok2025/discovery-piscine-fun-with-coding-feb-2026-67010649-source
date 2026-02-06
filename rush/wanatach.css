@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background-color: #f7f7f7;
+}
+
+/* ---------- NAVBAR ---------- */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #111;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- SECTION ---------- */
+section {
+    padding: 100px 12%;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.7;
+}
+
+/* ---------- HERO ---------- */
+#home {
+    background: linear-gradient(135deg, #e9f0f7, #ffffff);
+    text-align: center;
+}
+
+.hero-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    border: 2px solid #111;
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero-btn:hover {
+    background: #111;
+    color: white;
+}
+
+/* ---------- WORK ---------- */
+.work-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.tag {
+    font-size: 14px;
+    color: #555;
+    font-weight: 600;
+}
+
+/* ---------- ABOUT ---------- */
+#about {
+    background: #ffffff;
+}
+
+.about-box {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #ddd;
+}
+
+/* ---------- CONTACT ---------- */
+#contact {
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background: #000;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #aaa;
+    text-decoration: none;
+}
+.work-img {
+    width: 150px;       
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    display: block;
+}
+.profile-img {
+    width: 120px;       
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 100px auto 20px; 
+}
+body > h3 {
+    text-align: center;
+}
+
