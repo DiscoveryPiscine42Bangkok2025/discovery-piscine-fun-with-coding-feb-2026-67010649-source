@@ -22,19 +22,6 @@ body {
     border: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
-/* contact links */
-.contact-link {
-    color: #0dcaf0;
-    text-decoration: none;
-}
-.contact-link:hover {
-    text-decoration: underline;
-}
-/* สั่งให้ลอยเมื่อ Hover (เฉพาะใน Showcase) */
-#showcase .card:hover {
-    transform: translateY(-10px); /* ลอยขึ้น */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* เงาชัดขึ้น */
-}
 .profile-img {
     transition: transform 0.3s ease;
 }
@@ -60,16 +47,9 @@ body {
     /* ใส่ Link รูป Wallpaper ของคนที่ 1 ตรงนี้ */
     background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), 
                       url('https://img.freepik.com/free-vector/abstract-paper-cut-shape-wave-background_474888-4649.jpg');
-
+}
 
 /* NEW */
-}
-#Showcase.body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #dfe9f3, #ffffff);
-    color: #111;
-}
 .content {
     display: flex;
     gap: 50px;
